@@ -1,3 +1,7 @@
+Setup: https://github.com/ErickWendel/nodered-tutorial-setup
+
+Full examples: https://github.com/ErickWendel/nodered-minicurso
+
 https://nodered.org/docs/user-guide/runtime/securing-node-red
 
 docker exec -it nodered-ew node-red-admin hash-pw
