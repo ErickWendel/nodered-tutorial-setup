@@ -17,7 +17,4 @@ module.exports = {
     ]
   },
   userDir: "/data",
-  functionGlobalContext: {
-    require: require,
-  }
 };
