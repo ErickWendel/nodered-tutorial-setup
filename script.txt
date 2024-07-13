@@ -1,0 +1,7 @@
+https://nodered.org/docs/user-guide/runtime/securing-node-red
+
+docker exec -it nodered-ew node-red-admin hash-pw
+docker exec -it nodered-ew npm config set omit dev
+docker exec -it nodered-ew sh node-red-start
+
+settings - git config
