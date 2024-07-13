@@ -9,3 +9,5 @@ docker exec -it nodered-ew npm config set omit dev
 docker exec -it nodered-ew sh node-red-start
 
 settings - git config
+
+https://flows.nodered.org/node/@erickwendel/nodered-knex-connection
