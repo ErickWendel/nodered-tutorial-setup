@@ -1,7 +1,7 @@
-version: '3.5'
+version: "3.5"
 services:
   nodered:
-    container_name: nodered-ew
+    container_name: nodered
     image: nodered/node-red:latest-22
     ports:
       - 1880:1880
@@ -18,9 +18,9 @@ services:
   postgres:
     image: postgres:14
     environment:
-      POSTGRES_DB: ewacademy
-      POSTGRES_USER: erickwendel
-      POSTGRES_PASSWORD: erick
+      POSTGRES_DB: ypi
+      POSTGRES_USER: yaferreira
+      POSTGRES_PASSWORD: yuri
       TZ: "America/Sao_Paulo"
       PGTZ: "America/Sao_Paulo"
     ports:
@@ -28,7 +28,7 @@ services:
 
   adminer:
     image: adminer
-    container_name: ewacademy_adminer
+    container_name: ypi_adminer
     depends_on:
       - postgres
     ports:
